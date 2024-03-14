@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Title from "../components/Title.vue"
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+
+  <div class=" h-screen bg-[url('/src/assets/images/FPL_Background.jpg')] bg-cover">    
+    <Title /> 
+  </div>
+
 </template>
