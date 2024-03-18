@@ -4,6 +4,9 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'laptop': '480px',
+    },
     extend: {},
   },
   plugins: [],
